@@ -3,252 +3,302 @@
     {
       "id": 1,
       "sta": "Alabama",
-      "cap": "Montgomery"
+      "cap": "Montgomery",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 2,
       "sta": "Alaska",
-      "cap": "Juneau"
+      "cap": "Juneau",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alaska.jpg?alt=media&token=ba281e73-0f3b-44f8-80bd-12427ae56adf"
     },
     {
       "id": 3,
       "sta": "Arizona",
-      "cap": "Phoenix"
+      "cap": "Phoenix",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/arizona.jpg?alt=media&token=083b0765-f11b-49bb-895b-7d4db236b062"
     },
     {
       "id": 4,
       "sta": "Arkansas",
-      "cap": "Little Rock"
+      "cap": "Little Rock",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/arkansas.jpg?alt=media&token=45409ec2-f7b0-4219-8799-2f0722284c96"
     },
     {
       "id": 5,
       "sta": "California",
-      "cap": "Sacramento"
+      "cap": "Sacramento",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/california.jpg?alt=media&token=af289dad-dd28-4fc7-812f-1ec999606914"
     },
     {
       "id": 6,
       "sta": "Colorado",
-      "cap": "Denver"
+      "cap": "Denver",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/colorado.jpg?alt=media&token=888366bf-6cee-41ea-8247-dc369dbdbcd7"
     },
     {
       "id": 7,
       "sta": "Connecticut",
-      "cap": "Delaware"
+      "cap": "Hartford",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/connecticut.jpg?alt=media&token=d1d1fc43-ef2c-49e3-b59a-44af46ac8609"
     },
     {
       "id": 8,
       "sta": "Delaware",
-      "cap": "Dover"
+      "cap": "Dover",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/delaware.jpg?alt=media&token=65e4ae6c-c79b-4a5f-ac4a-e6f5daceaa35"
     },
     {
       "id": 9,
       "sta": "Florida",
-      "cap": "Tallahassee"
+      "cap": "Tallahassee",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 10,
       "sta": "Georgia",
-      "cap": "Atlanta"
+      "cap": "Atlanta",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 11,
       "sta": "Hawaii",
-      "cap": "Honolulu"
+      "cap": "Honolulu",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 12,
       "sta": "Idaho",
-      "cap": "Boise"
+      "cap": "Boise",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 13,
       "sta": "Illinois",
-      "cap": "Springfield"
+      "cap": "Springfield",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 14,
       "sta": "Indiana",
-      "cap": "Indianapolis"
+      "cap": "Indianapolis",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 15,
       "sta": "Iowa",
-      "cap": "Des Moines"
+      "cap": "Des Moines",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 16,
       "sta": "Kansas",
-      "cap": "Topeka"
+      "cap": "Topeka",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 17,
       "sta": "Kentucky",
-      "cap": "Frankfort"
+      "cap": "Frankfort",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 18,
       "sta": "Louisiana",
-      "cap": "Baton Rouge"
+      "cap": "Baton Rouge",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 19,
       "sta": "Maine",
-      "cap": "Augusta"
+      "cap": "Augusta",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 20,
       "sta": "Maryland",
-      "cap": "Annapolis"
+      "cap": "Annapolis",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 21,
       "sta": "Massachusetts",
-      "cap": "Boston"
+      "cap": "Boston",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 22,
       "sta": "Michigan",
-      "cap": "Lansing"
+      "cap": "Lansing",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 23,
       "sta": "Minnesota",
-      "cap": "St. Paul"
+      "cap": "St. Paul",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 24,
       "sta": "Mississippi",
-      "cap": "Jackson"
+      "cap": "Jackson",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 25,
       "sta": "Missouri",
-      "cap": "Jefferson City"
+      "cap": "Jefferson City",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 26,
       "sta": "Montana",
-      "cap": "Helena"
+      "cap": "Helena",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 27,
       "sta": "Nebraska",
-      "cap": "Lincoln"
+      "cap": "Lincoln",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 28,
       "sta": "Nevada",
-      "cap": "Carson City"
+      "cap": "Carson City",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 29,
       "sta": "New Hampshire",
-      "cap": "Concord"
+      "cap": "Concord",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 30,
       "sta": "New Jersey",
-      "cap": "New Jersey"
+      "cap": "New Jersey",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 31,
       "sta": "New Mexico",
-      "cap": "Santa Fe"
+      "cap": "Santa Fe",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 32,
       "sta": "New York",
-      "cap": "Albany"
+      "cap": "Albany",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 33,
       "sta": "North Carolina",
-      "cap": "Raleigh"
+      "cap": "Raleigh",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 34,
       "sta": "North Dakota",
-      "cap": "Bismarck"
+      "cap": "Bismarck",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 35,
       "sta": "Ohio",
-      "cap": "Columbus"
+      "cap": "Columbus",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 36,
       "sta": "Oklahoma",
-      "cap": "Oklahoma City"
+      "cap": "Oklahoma City",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 37,
       "sta": "Oregon",
-      "cap": "Salem"
+      "cap": "Salem",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 38,
       "sta": "Pennsylvania",
-      "cap": "Harrisburg"
+      "cap": "Harrisburg",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 39,
       "sta": "Rhode Island",
-      "cap": "Providence"
+      "cap": "Providence",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 40,
       "sta": "South Carolina",
-      "cap": "Columbia"
+      "cap": "Columbia",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 41,
       "sta": "South Dakota",
-      "cap": "Pierre"
+      "cap": "Pierre",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 42,
       "sta": "Tennessee",
-      "cap": "Nashville"
+      "cap": "Nashville",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 43,
       "sta": "Texas",
-      "cap": "Austin"
+      "cap": "Austin",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 44,
       "sta": "Utah",
-      "cap": "Salt Lake City"
+      "cap": "Salt Lake City",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 45,
       "sta": "Vermont",
-      "cap": "Montpelier"
+      "cap": "Montpelier",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 46,
       "sta": "Virginia",
-      "cap": "Richmond"
+      "cap": "Richmond",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 47,
       "sta": "Washington",
-      "cap": "Olympia"
+      "cap": "Olympia",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 48,
       "sta": "West Virginia",
-      "cap": "Charleston"
+      "cap": "Charleston",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 49,
       "sta": "Wisconsin",
-      "cap": "Madison"
+      "cap": "Madison",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     },
     {
       "id": 50,
       "sta": "Wyoming",
-      "cap": "Cheyenne"
+      "cap": "Cheyenne",
+      "img": "https://firebasestorage.googleapis.com/v0/b/react-flashcards-13b93.appspot.com/o/alabama.jpg?alt=media&token=2e6faf87-5775-488d-abed-0c9897d69fb1"
     }
   ]
 }

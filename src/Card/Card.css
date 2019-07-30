@@ -39,20 +39,29 @@
   transform: rotateY(180deg);
 }
 
-.eng {
+.sta {
   color: #333;
   font-size: 2.3em;
-  padding-top: 40%;
-}
-
-.han {
-  color: #333;
-  font-size: 6.3em;
   padding-top: 20%;
 }
 
-.pin {
+/* .cap {
+  color: #333;
+  font-size: 6.3em;
+  padding-top: 20%;
+} */
+
+.cap {
   color: rgba(200, 10, 10, 1);
   font-size: 2.3em;
+  padding-top: 40%;
+}
+h1 {
+  color: blue;
+}
+
+img {
+  height: 40%;
+  width: 60%;
   padding-top: 10%;
 }

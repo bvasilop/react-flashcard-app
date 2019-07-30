@@ -29,7 +29,8 @@ class App extends React.Component {
         currentCards.push({
           id: snap.key,
           sta: snap.val().sta,
-          cap:  snap.val().cap
+          cap:  snap.val().cap,
+          img:  snap.val().img
 
         })
 
@@ -59,6 +60,7 @@ class App extends React.Component {
         <div className="cardRow">
             <Card sta={this.state.currentCard.sta}
                   cap={this.state.currentCard.cap}
+                  img={this.state.currentCard.img}
                   />
             </div>
             <div className="buttonRow">

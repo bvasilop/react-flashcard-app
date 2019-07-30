@@ -11,7 +11,7 @@ export default class Draw extends React.Component {
   render() {
     return (
       <div className="buttonContainer">
-        <button className="btn"  onClick={this.drawCard}>Draw Card</button>
+        <button className="btn"  onClick={this.drawCard}>Select State</button>
       </div>
     )
   }
