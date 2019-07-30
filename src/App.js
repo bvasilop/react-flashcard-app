@@ -1,20 +1,22 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 import Card from './Card/Card';
 import Draw from './Draw/Draw';
+import { DB_CONFIG } from './Config/Firebase/db_config.js';
+import firebase from 'firebase/app';
+import 'firebase/database';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
 
+    this.app = firebase.initializeApp(DB_CONFIG);
+    this.database = this.app.database().ref().child('cards');
+
     this.updateCard = this.updateCard.bind(this);
 
     this.state = {
       cards: [
-        {id: 1, eng: "English", han: "Hanzi",  pin: "Pinyin"},
-        {id: 2, eng: "English_2", han: "Hanzi_2",  pin: "Pinyin_2"},
-        {id: 3, eng: "English_3", han: "Hanzi_3",  pin: "Pinyin_3"},
-        {id: 4, eng: "English_4", han: "Hanzi_4",  pin: "Pinyin_4"},
       ],
       currentCard: {}
     }
@@ -23,9 +25,16 @@ class App extends React.Component {
     componentWillMount() {
       const currentCards = this.state.cards;
 
-      this.setState({
-        cards: currentCards,
-        currentCard: this.getRandomCard(currentCards)
+      this.database.on('child_added', snap => {
+        currentCards.push({
+          id: snap.key,
+          num: snap.val().num
+        })
+
+        this.setState({
+          cards: currentCards,
+          currentCard: this.getRandomCard(currentCards)
+        })
       })
     }
 
@@ -44,17 +53,18 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="cardRow">
-          <Card eng={this.state.currentCard.eng}
-                han={this.state.currentCard.han}
-                pin={this.state.currentCard.pin}
-                />
+      <div class="ui segment">
+        <div className="ui container">
+          <div className="ui card">
+            <Card num={this.state.currentCard.num}
+                  />
+            </div>
+            </div>
+            <div className="ui container">
+              <Draw drawCard={this.updateCard}/>
+            </div>
           </div>
-          <div className="buttonRow">
-            <Draw drawCard={this.updateCard}/>
-          </div>
-      </div>
+
     )
   }
 }
