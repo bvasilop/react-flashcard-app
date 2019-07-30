@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import Card from './Card/Card';
 import Draw from './Draw/Draw';
 import { DB_CONFIG } from './Config/Firebase/db_config.js';
@@ -28,7 +28,9 @@ class App extends React.Component {
       this.database.on('child_added', snap => {
         currentCards.push({
           id: snap.key,
-          num: snap.val().num
+          sta: snap.val().sta,
+          cap:  snap.val().cap
+
         })
 
         this.setState({
@@ -53,17 +55,16 @@ class App extends React.Component {
 
   render() {
     return (
-      <div class="ui segment">
-        <div className="ui container">
-          <div className="ui card">
-            <Card num={this.state.currentCard.num}
+      <div className="App">
+        <div className="cardRow">
+            <Card sta={this.state.currentCard.sta}
+                  cap={this.state.currentCard.cap}
                   />
             </div>
-            </div>
-            <div className="ui container">
+            <div className="buttonRow">
               <Draw drawCard={this.updateCard}/>
             </div>
-          </div>
+        </div>
 
     )
   }

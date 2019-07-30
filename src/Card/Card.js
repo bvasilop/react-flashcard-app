@@ -5,18 +5,18 @@ const Card = (props) => (
   <div className="card-container">
     <div className="card">
       <div className="front">
-        <div className="num">
-          {props.num}
+        <div className="sta">
+          {props.sta}
         </div>
       </div>
-      {/* <div className="back">
-      <div className="han">
-      {props.num}
-      </div> */}
+      <div className="front back">
+      <div className="cap">
+      {props.cap}
+      </div>
       {/* <div className="pin">
       {props.num}
       </div> */}
-      {/* </div> */}
+      </div>
     </div>
   </div>
 )

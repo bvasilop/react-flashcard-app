@@ -2,19 +2,253 @@
   "cards": [
     {
       "id": 1,
-      "num": 1
+      "sta": "Alabama",
+      "cap": "Montgomery"
     },
     {
       "id": 2,
-      "num": 2
+      "sta": "Alaska",
+      "cap": "Juneau"
     },
     {
       "id": 3,
-      "num": 3
+      "sta": "Arizona",
+      "cap": "Phoenix"
     },
     {
       "id": 4,
-      "num": 4
+      "sta": "Arkansas",
+      "cap": "Little Rock"
+    },
+    {
+      "id": 5,
+      "sta": "California",
+      "cap": "Sacramento"
+    },
+    {
+      "id": 6,
+      "sta": "Colorado",
+      "cap": "Denver"
+    },
+    {
+      "id": 7,
+      "sta": "Connecticut",
+      "cap": "Delaware"
+    },
+    {
+      "id": 8,
+      "sta": "Delaware",
+      "cap": "Dover"
+    },
+    {
+      "id": 9,
+      "sta": "Florida",
+      "cap": "Tallahassee"
+    },
+    {
+      "id": 10,
+      "sta": "Georgia",
+      "cap": "Atlanta"
+    },
+    {
+      "id": 11,
+      "sta": "Hawaii",
+      "cap": "Honolulu"
+    },
+    {
+      "id": 12,
+      "sta": "Idaho",
+      "cap": "Boise"
+    },
+    {
+      "id": 13,
+      "sta": "Illinois",
+      "cap": "Springfield"
+    },
+    {
+      "id": 14,
+      "sta": "Indiana",
+      "cap": "Indianapolis"
+    },
+    {
+      "id": 15,
+      "sta": "Iowa",
+      "cap": "Des Moines"
+    },
+    {
+      "id": 16,
+      "sta": "Kansas",
+      "cap": "Topeka"
+    },
+    {
+      "id": 17,
+      "sta": "Kentucky",
+      "cap": "Frankfort"
+    },
+    {
+      "id": 18,
+      "sta": "Louisiana",
+      "cap": "Baton Rouge"
+    },
+    {
+      "id": 19,
+      "sta": "Maine",
+      "cap": "Augusta"
+    },
+    {
+      "id": 20,
+      "sta": "Maryland",
+      "cap": "Annapolis"
+    },
+    {
+      "id": 21,
+      "sta": "Massachusetts",
+      "cap": "Boston"
+    },
+    {
+      "id": 22,
+      "sta": "Michigan",
+      "cap": "Lansing"
+    },
+    {
+      "id": 23,
+      "sta": "Minnesota",
+      "cap": "St. Paul"
+    },
+    {
+      "id": 24,
+      "sta": "Mississippi",
+      "cap": "Jackson"
+    },
+    {
+      "id": 25,
+      "sta": "Missouri",
+      "cap": "Jefferson City"
+    },
+    {
+      "id": 26,
+      "sta": "Montana",
+      "cap": "Helena"
+    },
+    {
+      "id": 27,
+      "sta": "Nebraska",
+      "cap": "Lincoln"
+    },
+    {
+      "id": 28,
+      "sta": "Nevada",
+      "cap": "Carson City"
+    },
+    {
+      "id": 29,
+      "sta": "New Hampshire",
+      "cap": "Concord"
+    },
+    {
+      "id": 30,
+      "sta": "New Jersey",
+      "cap": "New Jersey"
+    },
+    {
+      "id": 31,
+      "sta": "New Mexico",
+      "cap": "Santa Fe"
+    },
+    {
+      "id": 32,
+      "sta": "New York",
+      "cap": "Albany"
+    },
+    {
+      "id": 33,
+      "sta": "North Carolina",
+      "cap": "Raleigh"
+    },
+    {
+      "id": 34,
+      "sta": "North Dakota",
+      "cap": "Bismarck"
+    },
+    {
+      "id": 35,
+      "sta": "Ohio",
+      "cap": "Columbus"
+    },
+    {
+      "id": 36,
+      "sta": "Oklahoma",
+      "cap": "Oklahoma City"
+    },
+    {
+      "id": 37,
+      "sta": "Oregon",
+      "cap": "Salem"
+    },
+    {
+      "id": 38,
+      "sta": "Pennsylvania",
+      "cap": "Harrisburg"
+    },
+    {
+      "id": 39,
+      "sta": "Rhode Island",
+      "cap": "Providence"
+    },
+    {
+      "id": 40,
+      "sta": "South Carolina",
+      "cap": "Columbia"
+    },
+    {
+      "id": 41,
+      "sta": "South Dakota",
+      "cap": "Pierre"
+    },
+    {
+      "id": 42,
+      "sta": "Tennessee",
+      "cap": "Nashville"
+    },
+    {
+      "id": 43,
+      "sta": "Texas",
+      "cap": "Austin"
+    },
+    {
+      "id": 44,
+      "sta": "Utah",
+      "cap": "Salt Lake City"
+    },
+    {
+      "id": 45,
+      "sta": "Vermont",
+      "cap": "Montpelier"
+    },
+    {
+      "id": 46,
+      "sta": "Virginia",
+      "cap": "Richmond"
+    },
+    {
+      "id": 47,
+      "sta": "Washington",
+      "cap": "Olympia"
+    },
+    {
+      "id": 48,
+      "sta": "West Virginia",
+      "cap": "Charleston"
+    },
+    {
+      "id": 49,
+      "sta": "Wisconsin",
+      "cap": "Madison"
+    },
+    {
+      "id": 50,
+      "sta": "Wyoming",
+      "cap": "Cheyenne"
     }
   ]
 }
