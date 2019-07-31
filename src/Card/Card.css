@@ -24,6 +24,13 @@ body {
   }
 }
 
+@media (hover: hover) {
+  .card:hover {
+    transform: rotateY(180deg);
+    transition: all 0.4s ease-in-out;
+  }
+  /* Primary Input responds to hover fully, such as a mouse or a Nintendo Wii controller */
+}
 .card-container {
   cursor: pointer;
   height: 400px;
