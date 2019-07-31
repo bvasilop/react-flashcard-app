@@ -14,11 +14,11 @@ const Card = (props) => (
       </div>
       <div className="front back">
       <div className="cap">
+      <h1>the capital is:</h1>
       {props.cap}
+      <br/>
+      <img src={props.img} alt="state pic"></img>
       </div>
-      {/* <div className="pin">
-      {props.num}
-      </div> */}
       </div>
     </div>
   </div>
