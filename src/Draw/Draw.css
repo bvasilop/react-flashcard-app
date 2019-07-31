@@ -11,6 +11,7 @@
   background: #34495e;
   margin: auto;
   margin-top: 20px;
+  border-radius: 1.5rem;
 }
 
 .btn:active {
