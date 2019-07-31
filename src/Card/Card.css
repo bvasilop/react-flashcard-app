@@ -18,6 +18,12 @@ body {
   zoom: 1.25;
 }
 
+@media only screen and (max-width: 500px) {
+  body {
+    zoom: 0.9;
+  }
+}
+
 .card-container {
   cursor: pointer;
   height: 400px;
