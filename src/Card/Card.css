@@ -8,7 +8,14 @@ img {
   padding-top: 10%;
 }
 body {
-  background-color: #b3b1b1;
+  background-image: linear-gradient(
+    to right,
+    #1d0101,
+    #324369,
+    rgb(72, 117, 188),
+    #1d0101
+  );
+  zoom: 1.25;
 }
 
 .card-container {
@@ -25,7 +32,6 @@ body {
   height: 400px;
   width: 400px;
   position: absolute;
-  /* border: 1px solid #300; */
   transform-style: preserve-3d;
   transition: all 0.4s ease-in-out;
 }
@@ -42,7 +48,7 @@ body {
   position: absolute;
   overflow: hidden;
   text-align: center;
-  background-color: #dcdcdc;
+  background-color: #dff6ff;
   border-radius: 1.5rem;
 }
 
