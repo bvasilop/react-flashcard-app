@@ -1,3 +1,13 @@
+h1 {
+  color: blue;
+}
+
+img {
+  height: 40%;
+  width: 70%;
+  padding-top: 10%;
+}
+
 .card-container {
   cursor: pointer;
   height: 400px;
@@ -29,7 +39,7 @@
   position: absolute;
   overflow: hidden;
   text-align: center;
-  background-color: rgba(255, 251, 251, 1);
+  background-color: rgb(253, 250, 250);
 }
 
 .card .back {
@@ -42,26 +52,11 @@
 .sta {
   color: #333;
   font-size: 2.3em;
-  padding-top: 20%;
+  padding-top: 10%;
 }
-
-/* .cap {
-  color: #333;
-  font-size: 6.3em;
-  padding-top: 20%;
-} */
 
 .cap {
   color: rgba(200, 10, 10, 1);
   font-size: 2.3em;
   padding-top: 40%;
-}
-h1 {
-  color: blue;
-}
-
-img {
-  height: 40%;
-  width: 60%;
-  padding-top: 10%;
 }
