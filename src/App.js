@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Card from './Card/Card';
 import Draw from './Draw/Draw';
+import Loader from 'react-loader';
 import { DB_CONFIG } from './Config/Firebase/db_config.js';
 import firebase from 'firebase/app';
 import 'firebase/database';
@@ -12,13 +13,13 @@ class App extends React.Component {
 
     this.app = firebase.initializeApp(DB_CONFIG);
     this.database = this.app.database().ref().child('cards');
-
     this.updateCard = this.updateCard.bind(this);
 
     this.state = {
       cards: [
       ],
-      currentCard: {}
+      currentCard: {},
+      loaded: false
     }
   }
 
@@ -31,12 +32,12 @@ class App extends React.Component {
           sta: snap.val().sta,
           cap:  snap.val().cap,
           img:  snap.val().img
-
         })
 
         this.setState({
           cards: currentCards,
-          currentCard: this.getRandomCard(currentCards)
+          currentCard: this.getRandomCard(currentCards),
+          loaded: true,
         })
       })
     }
@@ -44,7 +45,6 @@ class App extends React.Component {
     getRandomCard(currentCards) {
       const card = currentCards[Math.floor(Math.random()* currentCards.length)]
       return card;
-
     }
 
     updateCard() {
@@ -57,6 +57,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Loader loaded={this.state.loaded} top="35%" scale={1.25}>
         <div className="cardRow">
             <Card sta={this.state.currentCard.sta}
                   cap={this.state.currentCard.cap}
@@ -66,8 +67,8 @@ class App extends React.Component {
             <div className="buttonRow">
               <Draw drawCard={this.updateCard}/>
             </div>
+            </Loader>
         </div>
-
     )
   }
 }

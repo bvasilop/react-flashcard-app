@@ -18,19 +18,6 @@ body {
   zoom: 1.25;
 }
 
-@media only screen and (max-width: 500px) {
-  body {
-    zoom: 0.9;
-  }
-}
-
-@media (hover: hover) {
-  .card:hover {
-    transform: rotateY(180deg);
-    transition: all 0.4s ease-in-out;
-  }
-  /* Primary Input responds to hover fully, such as a mouse or a Nintendo Wii controller */
-}
 .card-container {
   cursor: pointer;
   height: 400px;
@@ -82,4 +69,19 @@ body {
   color: rgba(200, 10, 10, 1);
   font-size: 2.3em;
   padding-top: 10%;
+}
+
+/* mobile screens */
+@media only screen and (max-width: 500px) {
+  body {
+    zoom: 0.9;
+  }
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: rotateY(180deg);
+    transition: all 0.4s ease-in-out;
+  }
+  /* Primary Input responds to hover fully, such as a mouse or a Nintendo Wii controller */
 }
