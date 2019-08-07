@@ -3,7 +3,6 @@ h1 {
 }
 
 img {
-  height: 40%;
   width: 70%;
   padding-top: 10%;
 }
@@ -31,6 +30,7 @@ body {
 .card {
   height: 400px;
   width: 400px;
+  border-radius: 1.5rem;
   position: absolute;
   transform-style: preserve-3d;
   transition: all 0.4s ease-in-out;
