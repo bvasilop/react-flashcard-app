@@ -23,7 +23,7 @@ class App extends React.Component {
     }
   }
 
-    componentWillMount() {
+    componentDidMount = () => {
       const currentCards = this.state.cards;
 
       this.database.on('child_added', snap => {
@@ -42,12 +42,12 @@ class App extends React.Component {
       })
     }
 
-    getRandomCard(currentCards) {
+    getRandomCard = (currentCards) => {
       const card = currentCards[Math.floor(Math.random()* currentCards.length)]
       return card;
     }
 
-    updateCard() {
+    updateCard = () => {
       const currentCards = this.state.cards;
       this.setState({
         currentCard: this.getRandomCard(currentCards)
