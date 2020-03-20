@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bvasilop/react-flashcard-app/static/css/main.228957f9.chunk.css",
+    "main.js": "/bvasilop/react-flashcard-app/static/js/main.d17e1455.chunk.js",
+    "main.js.map": "/bvasilop/react-flashcard-app/static/js/main.d17e1455.chunk.js.map",
+    "runtime-main.js": "/bvasilop/react-flashcard-app/static/js/runtime-main.c9625918.js",
+    "runtime-main.js.map": "/bvasilop/react-flashcard-app/static/js/runtime-main.c9625918.js.map",
+    "static/js/2.422d9be4.chunk.js": "/bvasilop/react-flashcard-app/static/js/2.422d9be4.chunk.js",
+    "static/js/2.422d9be4.chunk.js.map": "/bvasilop/react-flashcard-app/static/js/2.422d9be4.chunk.js.map",
+    "index.html": "/bvasilop/react-flashcard-app/index.html",
+    "precache-manifest.e2b9be6f619007e424c82448387f9d3a.js": "/bvasilop/react-flashcard-app/precache-manifest.e2b9be6f619007e424c82448387f9d3a.js",
+    "service-worker.js": "/bvasilop/react-flashcard-app/service-worker.js",
+    "static/css/main.228957f9.chunk.css.map": "/bvasilop/react-flashcard-app/static/css/main.228957f9.chunk.css.map",
+    "static/js/2.422d9be4.chunk.js.LICENSE.txt": "/bvasilop/react-flashcard-app/static/js/2.422d9be4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9625918.js",
+    "static/js/2.422d9be4.chunk.js",
+    "static/css/main.228957f9.chunk.css",
+    "static/js/main.d17e1455.chunk.js"
+  ]
+}
